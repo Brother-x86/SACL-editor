@@ -1,8 +1,9 @@
 # utilisation
 
-- param1 : *AuditRights* , default=`ReadProperty`  https://learn.microsoft.com/en-us/dotnet/api/system.directoryservices.activedirectoryrights?view=windowsdesktop-10.0
-- param2 : *Guid / properties* , default=`[Guid]::Empty` : apply into all properties
-- param3 : *Inheritance*, default=`None`  : no Inheritance https://learn.microsoft.com/en-us/dotnet/api/system.directoryservices.activedirectorysecurityinheritance?view=windowsdesktop-10.0
+- param1 : distinguishedName , target for the SACL
+- param2 (optionnal): *AuditRights* , default=`ReadProperty`  https://learn.microsoft.com/en-us/dotnet/api/system.directoryservices.activedirectoryrights?view=windowsdesktop-10.0
+- param3 (optionnal): *Guid / properties* , default=`[Guid]::Empty` : apply into all properties
+- param4 (optionnal): *Inheritance*, default=`None`  : no Inheritance https://learn.microsoft.com/en-us/dotnet/api/system.directoryservices.activedirectorysecurityinheritance?view=windowsdesktop-10.0
 
 # exemple
 
